@@ -3,7 +3,8 @@
 import { Button } from "@/components/tailgrids/core/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/tailgrids/core/card";
 import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/tailgrids/core/input-group";
-import { SearchIcon, MenuDotsIcon } from "@/components/common/header/icons";
+import { MenuDotsIcon } from "@/utils/icon";
+import { SearchIcon } from "@/components/common/header/icons";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/tailgrids/core/avatar";
 import { Badge } from "@/components/tailgrids/core/badge";
 
