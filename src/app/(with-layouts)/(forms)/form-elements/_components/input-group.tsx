@@ -52,7 +52,7 @@ export default function InputGroupComponents() {
   const [counterValue, setCounterValue] = useState<number>(1000);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("www.nextadmin.co");
+    navigator.clipboard.writeText("www.example.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -112,7 +112,7 @@ export default function InputGroupComponents() {
       </TextField>
 
       {/* Website URL */}
-      <TextField className="w-full flex-col gap-1.5" defaultValue="www.nextadmin.co">
+      <TextField className="w-full flex-col gap-1.5" defaultValue="www.example.com">
         <Label className="flex items-center gap-0.5 text-sm font-medium text-input-label-text">
           Website URL
         </Label>

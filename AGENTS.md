@@ -1,4 +1,4 @@
-# NextAdmin Pro — AI Agent Rules
+# SaaS Dashboard — AI Agent Rules
 
 > Next.js admin dashboard template · Tailwind CSS · React Aria · Recharts · TanStack Table
 

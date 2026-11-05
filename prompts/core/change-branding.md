@@ -6,10 +6,10 @@ You are helping rebrand this Next.js project. Follow these steps **in order** �
 
 Before touching any files, ask me for the following. Ask everything in a single message so I can answer it all at once.
 
-1. **Product name** — short brand name shown in the sidebar logo area and on auth pages (e.g. "Acme"). Current value: `NextAdmin`.
-2. **Site title** — shown in the browser tab and as the default `<title>`. Used both as the page-title default and as the suffix in the title template (`%s | <site title>`). Current value: `NextAdmin - Next.js Dashboard Kit`.
+1. **Product name** — short brand name shown in the sidebar logo area and on auth pages (e.g. "Acme"). Current value: `SaaS Dashboard`.
+2. **Site title** — shown in the browser tab and as the default `<title>`. Used both as the page-title default and as the suffix in the title template (`%s | <site title>`). Current value: `SaaS Dashboard`.
 3. **Meta description** — roughly 150 characters, used for SEO in `layout.tsx`. Current value: `Next.js admin dashboard toolkit with 200+ templates, UI components, and integrations for fast dashboard development.`
-4. **AGENTS.md headline** — the H1 title at the top of `AGENTS.md`. Current value: `NextAdmin Pro — AI Agent Rules`.
+4. **AGENTS.md headline** — the H1 title at the top of `AGENTS.md`. Current value: `SaaS Dashboard — AI Agent Rules`.
 5. **AGENTS.md sub-heading** — the blockquote descriptor line under the headline in `AGENTS.md`. Current value: `Next.js admin dashboard template · Tailwind CSS · React Aria · Recharts · TanStack Table`.
 
 Do **not** ask me for logo files, SVGs, or images — those are handled manually at the very end, not by you.
@@ -38,7 +38,7 @@ Once I approve, apply the edits below using targeted find-and-replace — never 
 
 | Find                                                                                         | Replace with                    |
 | -------------------------------------------------------------------------------------------- | ------------------------------- |
-| `# NextAdmin Pro — AI Agent Rules`                                                           | `# <new AGENTS.md headline>`    |
+| `# SaaS Dashboard — AI Agent Rules`                                                           | `# <new AGENTS.md headline>`    |
 | `> Next.js admin dashboard template · Tailwind CSS · React Aria · Recharts · TanStack Table` | `> <new AGENTS.md sub-heading>` |
 
 ### `src/app/layout.tsx`
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 
 ```tsx
 {/* Before */}
-<span className="text-[34px] font-bold tracking-tight">NextAdmin</span>
+<span className="text-[34px] font-bold tracking-tight">SaaS Dashboard</span>
 
 {/* After */}
 <span className="text-[34px] font-bold tracking-tight"><new product name></span>

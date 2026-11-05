@@ -9,7 +9,7 @@ export type UserTableRow = {
 export const userTableData: UserTableRow[] = [
   {
     id: "usr_01j2k3m4n5p6q7r8",
-    name: "Musharof Chowdhury",
+    name: "Temidayo XYZ",
     position: "Multidisciplinary Web Entrepreneur",
     email: "musharof@example.com",
     role: "Owner",

@@ -1,5 +1,5 @@
-# NextAdmin - AI-First Next.js Admin Dashboard Template
-**NextAdmin** is a free, open-source Next.js admin dashboard with essential UI components, blocks, pages, and multiple dashboards. Version 2.0 also ships AI rules and context files, so Claude Code, Cursor, Codex, and any other agent can read your project and build features that match your patterns instead of inventing their own.
+# SaaS Dashboard - AI-First Next.js Admin Dashboard
+**SaaS Dashboard** is a free, open-source Next.js admin dashboard with essential UI components, blocks, pages, and multiple dashboards. Version 2.0 also ships AI rules and context files, so Claude Code, Cursor, Codex, and any other agent can read your project and build features that match your patterns instead of inventing their own.
 
 [![nextjs admin template](nextadmin-v2.png)](https://nextadmin.co/)
 
@@ -42,7 +42,7 @@ Integrations already wired up: TailGrids UI, Recharts, Leaflet, TanStack Table, 
 You'll need Node.js installed. Then:
 
 ```bash
-git clone https://github.com/NextAdminHQ/nextjs-admin-dashboard.git
+git clone https://github.com/temidayoxyz/saas-dashboard.git
 cd nextjs-admin-dashboard
 ```
 
@@ -66,7 +66,7 @@ Open the project in Claude Code, Cursor, Codex, Copilot, or Zed. Your agent read
 
 You can point an agent at an empty repo and ask for an admin dashboard, and it will get you something. The problem shows up on the second and third session, when it picks a different folder layout, a different auth approach, and styles components a little differently each time. You end up fixing patterns instead of shipping features.
 
-NextAdmin gives it a starting point that doesn't move. The components, the auth screens, the data shape, and the rules are already decided, so each session picks up where the last one left off.
+SaaS Dashboard gives you a starting point that doesn't move. The components, the auth screens, the data shape, and the rules are already decided, so each session picks up where the last one left off.
 
 A few things worth knowing:
 
@@ -91,7 +91,7 @@ The free version covers most of what you need to get a dashboard running. If you
 
 - [Discord](https://pimjo.com/community)
 - [X / Twitter](https://twitter.com/PimjoHQ)
-- [GitHub](https://github.com/NextAdminHQ/)
+- [GitHub](https://github.com/temidayoxyz/)
 
 Issues and pull requests are welcome. If something is broken or missing, open an issue and we'll take a look.
 
