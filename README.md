@@ -47,7 +47,3 @@ src/
 ## Working with AI agents
 
 The repo ships `AGENTS.md` plus skill files under `.agents/skills/`, so coding agents (Claude Code, Cursor, Codex, Copilot) can build inside the existing structure instead of inventing their own.
-
-## License
-
-Private — all rights reserved © Temidayo XYZ.
