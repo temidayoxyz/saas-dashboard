@@ -5,25 +5,25 @@ import type { OverviewStatDisplayConfig } from "./types";
 
 export const overviewStatDisplayConfig: Record<OverviewStatKey, OverviewStatDisplayConfig> = {
   views: {
-    title: "Total Views",
+    title: "Total Visitors",
     icon: <EyeIcon />,
     iconBgClass: "bg-[rgba(0,0,0,0.08)]",
     iconColorClass: "text-[#121212]",
   },
   profit: {
-    title: "Total profit",
+    title: "Total Revenue",
     icon: <MoneyBagIcon />,
     iconBgClass: "bg-[rgba(0,0,0,0.08)]",
     iconColorClass: "text-[#121212]",
   },
   orders: {
-    title: "Total Order",
+    title: "Total Subscriptions",
     icon: <BoxIcon />,
     iconBgClass: "bg-[rgba(0,0,0,0.08)]",
     iconColorClass: "text-[#121212]",
   },
   users: {
-    title: "Total User",
+    title: "Total Users",
     icon: <UserGroupIcon />,
     iconBgClass: "bg-[rgba(0,0,0,0.08)]",
     iconColorClass: "text-[#121212]",

@@ -75,7 +75,7 @@ export interface SalesDataPoint {
   };
 }
 
-export type Granularity = "monthly" | "yearly";
+export type Granularity = "daily" | "weekly" | "monthly" | "quarterly" | "yearly";
 
 export interface SalesChartRawResponse {
   chart_id: string;

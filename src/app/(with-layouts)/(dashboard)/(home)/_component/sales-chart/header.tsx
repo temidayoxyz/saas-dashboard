@@ -92,8 +92,17 @@ export default function HeaderSection({
             <SelectIndicator className="text-button-primary-outline-text" />
           </SelectTrigger>
           <SelectContent>
+            <SelectItem textValue="daily" id="daily">
+              Daily
+            </SelectItem>
+            <SelectItem textValue="weekly" id="weekly">
+              Weekly
+            </SelectItem>
             <SelectItem textValue="monthly" id="monthly">
               Monthly
+            </SelectItem>
+            <SelectItem textValue="quarterly" id="quarterly">
+              Quarterly
             </SelectItem>
             <SelectItem textValue="yearly" id="yearly">
               Yearly

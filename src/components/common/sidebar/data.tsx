@@ -14,15 +14,10 @@ export const NAV_DATA = [
     items: [
       {
         title: "Dashboard",
+        url: "/",
         icon: <HomeIcon />,
-        items: [
-          {
-            title: "E-commerce",
-            url: "/",
-          },
-          
-        ],
-      },   
+        items: [],
+      }, 
       {
         title: "Profile",
         url: "/profile",

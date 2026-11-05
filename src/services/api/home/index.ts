@@ -29,7 +29,12 @@ export async function getSalesChartData(
   granularity: Granularity = "monthly",
 ): Promise<SalesChartRawResponse> {
   await delay(1200);
-  return granularity === "yearly" ? salesChartYearlyRawData : salesChartMonthlyRawData;
+  switch (granularity) {
+    case "yearly":
+      return salesChartYearlyRawData;
+    default:
+      return salesChartMonthlyRawData;
+  }
 }
 
 export async function getInventoryOverviewData(): Promise<InventoryOverviewRawResponse> {

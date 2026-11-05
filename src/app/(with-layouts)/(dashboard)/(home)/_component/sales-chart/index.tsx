@@ -69,7 +69,7 @@ export default function SalesChart() {
               <Area
                 type="monotone"
                 dataKey="sales"
-                name="Sales"
+                name="MRR"
                 stroke="#121212"
                 strokeWidth={2}
                 fill="url(#background)"
@@ -79,7 +79,7 @@ export default function SalesChart() {
               <Area
                 type="monotone"
                 dataKey="revenue"
-                name="Revenue"
+                name="New Revenue"
                 stroke="#a1a1aa"
                 strokeWidth={2}
                 fill="transparent"

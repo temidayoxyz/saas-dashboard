@@ -299,7 +299,7 @@ export const topProductsRawData: TopProductsRawResponse = {
   products: [
     {
       id: "prod-2384a2cd-ef56-4122-99ab-8d9e0f1a2b3c",
-      product_name: "Keyboard H32",
+      product_name: "Free Plan",
       sales_count: 1284,
       rank: 1,
       revenue_amount: 192300,
@@ -311,7 +311,7 @@ export const topProductsRawData: TopProductsRawResponse = {
     },
     {
       id: "prod-7284b1ef-23cd-4de5-bcfa-9a8b7c6d5e4f",
-      product_name: "Mouse M12 Pro",
+      product_name: "Pro Plan",
       sales_count: 985,
       rank: 2,
       revenue_amount: 143700,
@@ -323,7 +323,7 @@ export const topProductsRawData: TopProductsRawResponse = {
     },
     {
       id: "prod-3849cdef-4567-48ab-9c12-ef34567890ab",
-      product_name: "Gaming Chair X5",
+      product_name: "Team Plan",
       sales_count: 732,
       rank: 3,
       revenue_amount: 117400,
@@ -335,7 +335,7 @@ export const topProductsRawData: TopProductsRawResponse = {
     },
     {
       id: "prod-9182bcda-12ef-43ab-89cd-ef0123456789",
-      product_name: "Wireless Headset V7",
+      product_name: "Enterprise Plan",
       sales_count: 1120,
       rank: 4,
       revenue_amount: 210500,
@@ -367,7 +367,7 @@ export const trafficSourcesRawData: TrafficSourcesRawResponse = {
   sources: [
     {
       id: "src-11223344-5566-7788-9900-aabbccddeeff",
-      source_name: "Organic",
+      source_name: "Google",
       impression_count: 3900,
       percentage: 100,
       created_at: "2026-07-05T08:00:00.000Z",
@@ -383,7 +383,7 @@ export const trafficSourcesRawData: TrafficSourcesRawResponse = {
     },
     {
       id: "src-33445566-7788-8899-00aa-bbccddeeff22",
-      source_name: "Social",
+      source_name: "X",
       impression_count: 509,
       percentage: 70,
       created_at: "2026-07-05T08:00:00.000Z",
@@ -391,7 +391,7 @@ export const trafficSourcesRawData: TrafficSourcesRawResponse = {
     },
     {
       id: "src-44556677-7788-8899-00aa-bbccddeeff33",
-      source_name: "Email",
+      source_name: "LinkedIn",
       impression_count: 639,
       percentage: 60,
       created_at: "2026-07-05T08:00:00.000Z",
@@ -399,7 +399,7 @@ export const trafficSourcesRawData: TrafficSourcesRawResponse = {
     },
     {
       id: "src-55667788-7788-8899-00aa-bbccddeeff44",
-      source_name: "Referral",
+      source_name: "Reddit",
       impression_count: 57,
       percentage: 50,
       created_at: "2026-07-05T08:00:00.000Z",

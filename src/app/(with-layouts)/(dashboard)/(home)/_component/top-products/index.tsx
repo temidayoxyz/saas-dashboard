@@ -26,7 +26,7 @@ export default function TopProducts() {
     <Card>
       {/* Header */}
       <CardHeader className="mb-6">
-        <CardTitle>Top Product</CardTitle>
+        <CardTitle>Plan Subscriptions</CardTitle>
 
         <Button iconOnly size="xs" variant="ghost">
           <MenuDotsIcon />
@@ -50,7 +50,7 @@ export default function TopProducts() {
                   {product.name}
                 </p>
                 <small className="block text-xs leading-4 text-text-tertiary">
-                  {product.sales} sales · #{product.rank}
+                  {product.sales} subs · #{product.rank}
                 </small>
               </div>
             </div>
