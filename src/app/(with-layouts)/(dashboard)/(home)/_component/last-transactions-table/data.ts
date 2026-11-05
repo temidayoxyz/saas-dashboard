@@ -59,4 +59,3 @@ export const STATUS_COLOR_MAP: Record<string, BadgeColor> = {
   refunded: "orange",
   processing: "blue",
 };
-};
