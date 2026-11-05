@@ -4,6 +4,7 @@ import { buttonStyles } from '@/components/tailgrids/core/button';
 import { CollapsibleGroup } from '@/components/tailgrids/core/collapsible';
 import { cn } from '@/utils/cn';
 import { Logo, LogoWithText, LogoWithTextDark } from '@/utils/icon';
+import { useMounted } from '@/hooks/use-mounted';
 import { useTheme } from 'next-themes';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -26,7 +27,8 @@ export default function Sidebar({
     onItemClick?: () => void;
 }) {
     const pathname = usePathname();
-    const { theme } = useTheme();
+    const { resolvedTheme } = useTheme();
+    const mounted = useMounted();
 
     // Compute which group should be open based on the current route
     const activeGroupKey = useMemo(
@@ -52,10 +54,10 @@ export default function Sidebar({
                 <Link href='/'>
                     {isSidebarOpen ? (
                         <>
-                            {theme === 'light' ? (
-                                <LogoWithText />
-                            ) : (
+                            {mounted && resolvedTheme === 'dark' ? (
                                 <LogoWithTextDark />
+                            ) : (
+                                <LogoWithText />
                             )}
                         </>
                     ) : (

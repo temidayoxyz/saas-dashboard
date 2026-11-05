@@ -1,19 +1,19 @@
 [data-theme="dark"] {
   /* Primary */
-  --primary-50: #eff3ff;
-  --primary-100: #dae2ff;
-  --primary-200: #becdff;
-  --primary-300: #91aeff;
-  --primary-400: #5e84fc;
-  --primary-500: #3758f9;
-  --primary-600: #2237ee;
-  --primary-700: #1a25db;
-  --primary-800: #1c20b1;
-  --primary-900: #1c228c;
-  --primary-950: #161755;
+  --primary-50: #fafafa;
+  --primary-100: #f4f4f5;
+  --primary-200: #e4e4e7;
+  --primary-300: #d4d4d8;
+  --primary-400: #a1a1aa;
+  --primary-500: #f4f4f5;
+  --primary-600: #e4e4e7;
+  --primary-700: #d4d4d8;
+  --primary-800: #a1a1aa;
+  --primary-900: #71717a;
+  --primary-950: #52525b;
 
-  --primary-text: white;
-  --neutral-brand-color: #7592ff;
+  --primary-text: #121212;
+  --neutral-brand-color: #f4f4f5;
 
   /* Text Color */
   --title-50: #ffffffcc;
@@ -69,10 +69,10 @@
   /* ======== Button Color For Dark =========*/
 
   /* Button Primary Color */
-  --button-primary-background: #5750f1;
-  --button-primary-hover-background: #3c35d8;
-  --button-primary-text: #ffffff;
-  --button-primary-focus-ring: rgba(87, 80, 241, 0.2);
+  --button-primary-background: #f4f4f5;
+  --button-primary-hover-background: #e4e4e7;
+  --button-primary-text: #121212;
+  --button-primary-focus-ring: rgba(244, 244, 245, 0.2);
 
   /* Outline Dark */
   --button-outline-background: #111827;
@@ -129,9 +129,9 @@
 
   /* Button Group Primary */
   --button-group-primary-background: #ffffff00;
-  --button-group-primary-hover-background: #5750f1;
-  --button-group-primary-text: #5750f1;
-  --button-group-primary-hover-text: #ffffff;
+  --button-group-primary-hover-background: #f4f4f5;
+  --button-group-primary-text: #f4f4f5;
+  --button-group-primary-hover-text: #121212;
 
   /* Button Group Secondary */
   --button-group-secondary-background: #ffffff03;
@@ -145,9 +145,9 @@
   --badge-neutral-icon-color: #e5e7eb;
 
   /* Badge Primary */
-  --badge-primary-background: #3758f926;
-  --badge-primary-text: #5e84fc;
-  --badge-primary-icon-color: #5e84fc;
+  --badge-primary-background: #27272a;
+  --badge-primary-text: #f4f4f5;
+  --badge-primary-icon-color: #e4e4e7;
 
   /* Badge Error */
   --badge-error-background: #ef444426;
@@ -216,16 +216,16 @@
   --sidebar-nav-default-background: #030712;
   --sidebar-nav-hover-background: #ffffff00;
   --sidebar-nav-secondary-hover-background: #ffffff0d;
-  --sidebar-nav-hover-text: #d1d5db;
-  --sidebar-nav-active-text: #5e84fc;
-  --sidebar-nav-active-background: #3758f91f;
-  --sidebar-nav-focused-background: #3758f91f;
+  --sidebar-nav-hover-text: #f4f4f5;
+  --sidebar-nav-active-text: #f4f4f5;
+  --sidebar-nav-active-background: #27272a;
+  --sidebar-nav-focused-background: #27272a;
   --sidebar-nav-default-text: #d1d5db;
-  --sidebar-nav-icon: #9ca3af;
+  --sidebar-nav-icon: #a1a1aa;
 
   /* Sidebar Badge */
-  --sidebar-badge-background: #3758f9;
-  --sidebar-badge-text: #ffffff;
+  --sidebar-badge-background: #f4f4f5;
+  --sidebar-badge-text: #121212;
 
   /* Sidebar Footer */
   --sidebar-footer-background: #ffffff08;
@@ -301,7 +301,7 @@
   --input-disabled-background: rgba(255, 255, 255, 0.03);
   --input-disabled-border: rgba(255, 255, 255, 0.05);
   --input-placeholder-text: #6b7280;
-  --input-primary-focus-border: #5750f1;
+  --input-primary-focus-border: #f4f4f5;
   --input-error-focus-border: #b91c1c;
   --input-success-focus-border: #15803d;
   --input-error: #dc2626;
@@ -310,20 +310,20 @@
   /* ======== Tab Color For Dark =========*/
   --tab-background: rgba(0, 0, 0, 0.5);
   --tab-active-background: #27272a;
-  --tab-secondary-active-background: #7592ff33;
+  --tab-secondary-active-background: #27272a;
 
   /* ======== Checkbox Color For Dark =========*/
   --checkbox-background: #ffffff00;
-  --checkbox-checked-border: #5750f1;
-  --checkbox-checked-background: #5750f1;
-  --checkbox-checked-icon-color: #ffffff;
+  --checkbox-checked-border: #f4f4f5;
+  --checkbox-checked-background: #f4f4f5;
+  --checkbox-checked-icon-color: #121212;
 
   /* ======== Scrollbar Color For Dark =========*/
   --scrollbar-background: #374151;
 
   /* ======== Datepicker Color For Dark =========*/
   --datepicker-background: #1f2937;
-  --datepicker-selected-background: #3758f9;
+  --datepicker-selected-background: #f4f4f5;
   --datepicker-selected-hover-background: #ffffff0d;
 
   /* ======== Dropdowns Color For Dark =========*/
@@ -333,8 +333,8 @@
   --dropdown-divider: #353c49;
 
   /* ======== Calendar Color For Dark =========*/
-  --calendar-primary-badge: #3758f9;
-  --calendar-primary-background: #dae2ff;
+  --calendar-primary-badge: #f4f4f5;
+  --calendar-primary-background: #27272a;
   --calendar-success-badge: #22c55e;
   --calendar-success-background: #dcfce7;
   --calendar-warning-badge: #f97316;
@@ -351,21 +351,21 @@
   --pricing-active-switcher-background: #ffffff1a;
   --pricing-active-card-background: #ffffff1a;
   --pricing-button-background: #ffffff1a;
-  --pricing-icon-color: #3758f9;
-  --pricing-icon-background: #465fff1a;
+  --pricing-icon-color: #f4f4f5;
+  --pricing-icon-background: #27272a1a;
 
   /* ======== FAQ's Color For Dark =========*/
   --faq-primary-active-background: #ffffff08;
-  --faq-secondary-active-background: #dae2ff;
-  --faq-secondary-active-border: #becdff;
+  --faq-secondary-active-background: #f4f4f5;
+  --faq-secondary-active-border: #e4e4e7;
   --faq-secondary-active-title: #1f2937;
   --faq-secondary-active-text: #4b5563;
 
   /* ======== Chat List Color For Dark =========*/
   --chat-list-background-primary: #ffffff0d;
   --chat-list-background-primary-alt: #ffffff0d;
-  --chat-list-background-secondary: #3758f9;
-  --chat-list-background-secondary-alt: #3758f933;
+  --chat-list-background-secondary: #f4f4f5;
+  --chat-list-background-secondary-alt: #27272a;
 
   /* ======== Tooltip Color For Dark =========*/
   --tooltip-text: #ffffff;
@@ -394,8 +394,8 @@
   --modal-button-error-background: #ef4444;
 
   /* ======== Section Title Color For Dark =========*/
-  --section-title-badge: #3758f9;
-  --section-title-badge-background: #3758f926;
+  --section-title-badge: #f4f4f5;
+  --section-title-badge-background: #27272a;
 
   /* ======== Mobile Nav Menu Button Color For Dark =========*/
   --mobile-nav-icon: #d1d5db;
@@ -427,7 +427,7 @@
   --toggle-default-background: #52525b;
   --toggle-disabled-foreground: #ffffff66;
   --toggle-disabled-background: #1f2937;
-  --toggle-active-background: #5750f1;
+  --toggle-active-background: #f4f4f5;
 
   /* ======== Map Color For Dark =========*/
   --map-fill: #6b7280;
@@ -487,12 +487,12 @@
   --background-gray-quaternary: #3f3f46;
 
   /* general color */
-  --brand-100: #e0e7ff;
-  --brand-200: #c7d2fe;
-  --brand-300: #a5b4fc;
-  --brand-400: #818cf8;
-  --brand-500: #5750f1;
-  --brand-600: #3c35d8;
+  --brand-100: #27272a;
+  --brand-200: #3f3f46;
+  --brand-300: #52525b;
+  --brand-400: #a1a1aa;
+  --brand-500: #f4f4f5;
+  --brand-600: #e4e4e7;
   --base-white: #ffffff;
   --green-600: #16a34a;
   --red-600: #dc2626;

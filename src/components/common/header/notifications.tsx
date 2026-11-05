@@ -10,11 +10,10 @@ import {
 import { Button } from "@/components/tailgrids/core/button";
 import { OverlayWrapper } from "@/components/tailgrids/core/overlay";
 import { Popover } from "@/components/tailgrids/core/popover";
-import { ScrollArea, ScrollAreaViewport, ScrollBar } from "@/components/tailgrids/core/scroll-area";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 import React, { useState } from "react";
-import { Header, Heading } from "react-aria-components";
+
 
 interface Notification {
   id: string;
@@ -129,10 +128,8 @@ export function NotificationsButton() {
         className="w-84.5 overflow-hidden rounded-2xl border border-border-secondary-alt bg-background-white-secondary p-0 shadow-3xl"
       >
         {/* Header */}
-        <Header className="flex items-center justify-between border-b border-border-secondary-alt px-5 pt-5 pb-4">
-          <Heading level={4} className="leading-6 font-semibold text-text-primary">
-            Notifications
-          </Heading>
+        <header className="flex items-center justify-between border-b border-border-secondary-alt px-5 pt-5 pb-4">
+          <h4 className="leading-6 font-semibold text-text-primary">Notifications</h4>
 
           <Link
             className="p-1 text-icon-secondary transition-colors hover:text-icon-primary"
@@ -141,10 +138,9 @@ export function NotificationsButton() {
           >
             <SettingIcon />
           </Link>
-        </Header>
+        </header>
 
-        <ScrollArea className="h-100 max-h-100">
-          <ScrollAreaViewport>
+        <div className="h-100 max-h-100 overflow-y-auto">
             {notifications.map((group) => (
               <section key={group.title}>
                 {/* Group Header */}
@@ -189,9 +185,7 @@ export function NotificationsButton() {
                 </ul>
               </section>
             ))}
-          </ScrollAreaViewport>
-          <ScrollBar />
-        </ScrollArea>
+        </div>
 
         {/* Footer */}
         <div className="flex items-center justify-between border-t border-border-secondary-alt px-5 py-4">
