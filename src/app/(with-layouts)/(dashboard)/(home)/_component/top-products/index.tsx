@@ -1,6 +1,5 @@
 "use client";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/tailgrids/core/avatar";
 import { Button } from "@/components/tailgrids/core/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/tailgrids/core/card";
 import { getTopProductsData } from "@/services/api/home";
@@ -41,10 +40,9 @@ export default function TopProducts() {
             className="flex items-center justify-between border-b border-border-primary py-3 first:pt-0 last:border-0 last:pb-0"
           >
             <div className="flex items-center gap-3">
-              <Avatar>
-                <AvatarImage src={product.image} alt={product.name} className="bg-gray-100" />
-                <AvatarFallback>{product.name.charAt(0)}</AvatarFallback>
-              </Avatar>
+              <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-background-gray-secondary_alt text-sm font-semibold text-text-primary">
+                {product.name.charAt(0)}
+              </div>
               <div>
                 <p className="mb-1 text-sm leading-5 font-medium text-text-primary">
                   {product.name}

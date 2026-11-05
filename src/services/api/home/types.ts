@@ -130,12 +130,12 @@ export interface TrafficSourcesRawResponse {
 }
 
 export type TransactionStatus =
-  | "pending"
-  | "processing"
-  | "shipped"
-  | "delivered"
-  | "returned"
-  | "failed"
+  | "active"
+  | "trial"
+  | "past_due"
+  | "cancelled"
+  | "expired"
+  | "suspended"
   | "refunded";
 
 export interface RawTransactionItem {

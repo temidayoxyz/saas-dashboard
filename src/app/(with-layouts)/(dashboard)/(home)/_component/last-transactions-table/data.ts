@@ -9,8 +9,8 @@ export const transactionsTableData: Transaction[] = [
     time: "12:45 PM",
     customer: "Amelia Chen",
     amount: "$288.7",
-    status: "Shipped",
-    statusColor: "violet",
+    status: "Active",
+    statusColor: "success",
   },
   {
     id: "#ORD-8539",
@@ -18,7 +18,7 @@ export const transactionsTableData: Transaction[] = [
     time: "11:00 PM",
     customer: "Marcus Bell",
     amount: "$200",
-    status: "Delivered",
+    status: "Active",
     statusColor: "success",
   },
   {
@@ -27,7 +27,7 @@ export const transactionsTableData: Transaction[] = [
     time: "4:57 PM",
     customer: "Priya Natarajan",
     amount: "$509",
-    status: "Delivered",
+    status: "Active",
     statusColor: "success",
   },
   {
@@ -36,7 +36,7 @@ export const transactionsTableData: Transaction[] = [
     time: "2:14 PM",
     customer: "Jonas Weber",
     amount: "$420.5",
-    status: "Pending",
+    status: "Past Due",
     statusColor: "warning",
   },
   {
@@ -45,17 +45,17 @@ export const transactionsTableData: Transaction[] = [
     time: "07:00 AM",
     customer: "Sofia Rinaldi",
     amount: "$510.2",
-    status: "Returned",
+    status: "Cancelled",
     statusColor: "gray",
   },
 ];
 
 export const STATUS_COLOR_MAP: Record<string, BadgeColor> = {
-  shipped: "primary",
-  delivered: "success",
-  pending: "warning",
-  returned: "gray",
-  failed: "error",
+  active: "success",
+  trial: "blue",
+  past_due: "warning",
+  cancelled: "gray",
+  expired: "error",
+  suspended: "rose",
   refunded: "orange",
-  processing: "blue",
 };
