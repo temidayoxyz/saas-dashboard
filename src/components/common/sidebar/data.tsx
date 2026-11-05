@@ -1,11 +1,7 @@
 import {
-  AlphabetIcon,
   HomeIcon,
   PieChartIcon,
-  TableIcon,
-  UserIcon,
   Widget4Icon,
-  WindowIcon
 } from "./icon";
 
 export const NAV_DATA = [
@@ -23,45 +19,6 @@ export const NAV_DATA = [
         url: "/analytics",
         icon: <PieChartIcon />,
         items: [],
-      }, 
-      {
-        title: "Forms",
-        icon: <AlphabetIcon />,
-        items: [
-          {
-            title: "Form Elements",
-            url: "/form-elements",
-          },
-        ],
-      },
-      {
-        title: "Tables",
-        url: "/tables",
-        icon: <TableIcon />,
-        items: [
-          {
-            title: "Basic Tables",
-            url: "/tables/basic-tables",
-          },
-        ],
-      },
-      {
-        title: "Pages",
-        icon: <WindowIcon />,
-        items: [
-          {
-            title: "Error Page",
-            url: "/error-page",
-          },
-          {
-            title: "Terms & Conditions",
-            url: "/terms-and-conditions",
-          },
-          {
-            title: "Mail Success",
-            url: "/mail-success",
-          },
-        ],
       },
     ],
   },
