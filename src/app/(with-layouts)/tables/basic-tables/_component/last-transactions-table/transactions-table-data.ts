@@ -31,7 +31,7 @@ export const transactionsTableData: Transaction[] = [
     customer: "Amelia Chen",
     amount: "$288.7",
     status: "Shipped",
-    statusColor: "violet",
+    statusColor: "gray",
   },
   {
     id: "#ORD-8539",

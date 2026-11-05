@@ -7,25 +7,25 @@ export const overviewStatDisplayConfig: Record<OverviewStatKey, OverviewStatDisp
   views: {
     title: "Total Views",
     icon: <EyeIcon />,
-    iconBgClass: "bg-[rgba(59,130,246,0.10)]",
-    iconColorClass: "text-[#3B82F6]",
+    iconBgClass: "bg-[rgba(0,0,0,0.08)]",
+    iconColorClass: "text-[#121212]",
   },
   profit: {
     title: "Total profit",
     icon: <MoneyBagIcon />,
-    iconBgClass: "bg-[rgba(34,197,94,0.10)]",
-    iconColorClass: "text-[#22C55E]",
+    iconBgClass: "bg-[rgba(0,0,0,0.08)]",
+    iconColorClass: "text-[#121212]",
   },
   orders: {
     title: "Total Order",
     icon: <BoxIcon />,
-    iconBgClass: "bg-[rgba(249,115,22,0.10)]",
-    iconColorClass: "text-[#F97316]",
+    iconBgClass: "bg-[rgba(0,0,0,0.08)]",
+    iconColorClass: "text-[#121212]",
   },
   users: {
     title: "Total User",
     icon: <UserGroupIcon />,
-    iconBgClass: "bg-[rgba(168,85,247,0.10)]",
-    iconColorClass: "text-[#A855F7]",
+    iconBgClass: "bg-[rgba(0,0,0,0.08)]",
+    iconColorClass: "text-[#121212]",
   },
 };

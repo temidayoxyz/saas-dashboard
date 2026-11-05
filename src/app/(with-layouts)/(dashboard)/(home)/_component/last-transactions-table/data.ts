@@ -51,11 +51,11 @@ export const transactionsTableData: Transaction[] = [
 ];
 
 export const STATUS_COLOR_MAP: Record<string, BadgeColor> = {
-  shipped: "violet",
+  shipped: "gray",
   delivered: "success",
   pending: "warning",
   returned: "gray",
   failed: "error",
   refunded: "orange",
-  processing: "blue",
+  processing: "gray",
 };

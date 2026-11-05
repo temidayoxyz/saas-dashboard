@@ -13,7 +13,7 @@ export function getSalesChartStats(summary: SalesChartSummary) {
       value: formatCurrency(summary.totalSales),
       delta: formatDelta(summary.salesDeltaPercent),
       isPositive: summary.salesDeltaPercent >= 0,
-      dotClassName: "bg-brand-500",
+      dotClassName: "bg-[#121212]",
     },
     {
       id: "revenue",
@@ -21,7 +21,7 @@ export function getSalesChartStats(summary: SalesChartSummary) {
       value: formatCurrency(summary.totalRevenue),
       delta: formatDelta(summary.revenueDeltaPercent),
       isPositive: summary.revenueDeltaPercent >= 0,
-      dotClassName: "bg-purple-500",
+      dotClassName: "bg-[#a1a1aa]",
     },
   ];
 }

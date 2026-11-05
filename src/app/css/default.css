@@ -179,19 +179,19 @@
   --badge-sky-icon-color: #0ea5e9;
 
   /* Badge Blue */
-  --badge-blue-background: #eff6ff;
-  --badge-blue-text: #1d4ed8;
-  --badge-blue-icon-color: #3b82f6;
+  --badge-blue-background: #f4f4f5;
+  --badge-blue-text: #27272a;
+  --badge-blue-icon-color: #52525b;
 
   /* Badge Violet */
-  --badge-violet-background: #f5f3ff;
-  --badge-violet-text: #6d28d9;
-  --badge-violet-icon-color: #8b5cf6;
+  --badge-violet-background: #f4f4f5;
+  --badge-violet-text: #27272a;
+  --badge-violet-icon-color: #52525b;
 
   /* Badge Purple */
-  --badge-purple-background: #faf5ff;
-  --badge-purple-text: #7e22ce;
-  --badge-purple-icon-color: #a855f7;
+  --badge-purple-background: #f4f4f5;
+  --badge-purple-text: #27272a;
+  --badge-purple-icon-color: #52525b;
 
   /* Badge Pink */
   --badge-pink-background: #fdf2f8;
@@ -499,11 +499,11 @@
   --green-600: #16a34a;
   --red-600: #dc2626;
   --gray-100: #f4f4f5;
-  --purple-300: #d8b4fe;
-  --blue-200: #bfdbfe;
-  --blue-300: #93c5fd;
-  --blue-900: #1e3a8a;
-  --violet-300: #c4b5fd;
+  --purple-300: #d4d4d8;
+  --blue-200: #e4e4e7;
+  --blue-300: #d4d4d8;
+  --blue-900: #27272a;
+  --violet-300: #d4d4d8;
   --pink-200: #fbcfe8;
 
   /* text */
