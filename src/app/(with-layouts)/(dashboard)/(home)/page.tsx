@@ -11,7 +11,7 @@ export default function Home() {
     <div className="mt-6 space-y-5">
       {/* Header Section */}
       <div className="px-2 lg:px-6">
-        <h1 className="mb-1 text-[28px] leading-8 font-medium text-text-primary">Hello XYZ</h1>
+        <h1 className="mb-1 text-[28px] leading-8 font-medium text-text-primary">Hello, XYZ</h1>
         <p className="text-sm leading-5 text-text-tertiary">
           Track your subscription revenue, users, and platform health.
         </p>
