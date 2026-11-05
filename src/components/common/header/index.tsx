@@ -2,7 +2,6 @@
 
 import { MenuIcon } from "@/components/common/header/icons";
 import ThemeToggle from "@/components/common/header/theme-toggle";
-import { UserProfileButton } from "@/components/common/header/user-profile";
 import { ThreeDots } from "@/components/common/sidebar/icon";
 import { cn } from "@/utils/cn";
 import { LogoWithText } from "@/utils/icon";
@@ -65,7 +64,6 @@ export default function Header({ onMenuClick }: { onMenuClick?: () => void }) {
           <div className="flex items-center gap-2.5">
             <ThemeToggle />
             <NotificationsButton />
-            <UserProfileButton />
           </div>
         </div>
       </header>
@@ -89,7 +87,6 @@ function MobileInfoDrawer({ isOpen }: { isOpen: boolean }) {
           </div>
 
           {/* Right Side - Actions */}
-          <UserProfileButton />
         </div>
       </div>
     </div>

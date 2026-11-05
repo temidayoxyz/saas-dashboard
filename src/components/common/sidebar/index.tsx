@@ -1,8 +1,8 @@
 'use client';
 
-import { buttonStyles } from '@/components/tailgrids/core/button';
 import { CollapsibleGroup } from '@/components/tailgrids/core/collapsible';
 import { cn } from '@/utils/cn';
+import { UserProfileButton } from '@/components/common/header/user-profile';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useMemo, useState } from 'react';
@@ -122,6 +122,11 @@ export default function Sidebar({
                     ))}
                 </CollapsibleGroup>
             </nav>
+
+            {/* Profile pinned to bottom */}
+            <div className="mt-auto px-4 py-4">
+                <UserProfileButton />
+            </div>
         </div>
     );
 }

@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  BillingIcon,
   GearIcon,
   LogoutIcon,
   UserCircleIcon,
@@ -48,11 +47,6 @@ export function UserProfileButton() {
       href: "#",
       icon: <GearIcon />,
       label: "Account Settings",
-    },
-    {
-      href: "#",
-      icon: <BillingIcon />,
-      label: "Billing and Plan",
     },
   ];
 
