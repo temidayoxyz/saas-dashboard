@@ -19,12 +19,6 @@ export const NAV_DATA = [
         items: [],
       }, 
       {
-        title: "Profile",
-        url: "/profile",
-        icon: <UserIcon />,
-        items: [],
-      },
-      {
         title: "Forms",
         icon: <AlphabetIcon />,
         items: [

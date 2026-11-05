@@ -44,8 +44,8 @@ export default function SalesChart() {
               <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E5E7EB" />
               <defs>
                 <linearGradient id="background" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="#121212" stopOpacity={0.2} />
-                  <stop offset="95%" stopColor="#121212" stopOpacity={0} />
+                  <stop offset="5%" stopColor="var(--color-brand-500)" stopOpacity={0.2} />
+                  <stop offset="95%" stopColor="var(--color-brand-500)" stopOpacity={0} />
                 </linearGradient>
               </defs>
               <XAxis
@@ -70,21 +70,21 @@ export default function SalesChart() {
                 type="monotone"
                 dataKey="sales"
                 name="MRR"
-                stroke="#121212"
+                stroke="var(--color-brand-500)"
                 strokeWidth={2}
                 fill="url(#background)"
                 dot={false}
-                activeDot={{ r: 4, fill: "#121212", stroke: "#fff", strokeWidth: 2 }}
+                activeDot={{ r: 4, fill: "var(--color-brand-500)", stroke: "var(--color-base-white)", strokeWidth: 2 }}
               />
               <Area
                 type="monotone"
                 dataKey="revenue"
                 name="New Revenue"
-                stroke="#a1a1aa"
+                stroke="var(--color-text-tertiary)"
                 strokeWidth={2}
                 fill="transparent"
                 dot={false}
-                activeDot={{ r: 4, fill: "#a1a1aa", stroke: "#fff", strokeWidth: 2 }}
+                activeDot={{ r: 4, fill: "var(--color-text-tertiary)", stroke: "var(--color-base-white)", strokeWidth: 2 }}
               />
             </AreaChart>
           </ChartContainer>
